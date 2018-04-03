@@ -1,7 +1,5 @@
 def valid_move?(board, index)
-  if index.between(0, 8) 
-    return true
-  elsif index == " "
+  if index.between(0, 8) && board == " "
     return true
   else
     return false
